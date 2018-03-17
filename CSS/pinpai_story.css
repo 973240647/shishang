@@ -1,0 +1,105 @@
+body,ul,li{
+	padding: 0;
+	margin: 0;
+}
+#pinpai_main{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+.b_pic{
+	width: 100%;
+	height: 580px;
+	float: left;
+	margin-top: 3%;
+	background: url("../images/pinpai/bg.jpg");
+	background-size: 100% 100%;
+}
+.b_name{
+	font-size: 58px;
+	color: white;
+	float: left;
+	margin: 25% 0 0 44%;
+}
+.more{
+	width: 100%;
+	height: 85px;
+	float: left;
+}
+.more p{
+	width: 28%;
+	font-size: 18px;
+	color: #A2A2A2;
+	margin: 2% 0 0 42%;
+}
+
+#guanyu{
+	width: 100%;
+	height: 690px;
+	float: left;
+	border-top: 1px solid #C2E0C2;
+	border-bottom: 1px solid #C2E0C2;
+}
+.guanyu_main{
+	width: 80%;
+	height: 620px;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+.main_left{
+	width: 40%;
+	height: 354px;
+	float: left;
+	margin: 10% 0 0 0;
+	background: url("../images/pinpai/guanyu.jpg");
+	background-size: 100% 100%;
+}
+.main_right{
+	width: 55%;
+	height: 90%;
+	float: left;
+}
+.me{
+	width: 20%;
+	height: 65px;
+	float: left;
+	font-size: 30px;
+	margin-top: 4%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+ 	color: black;
+}
+.hope{
+	font-size: 22px;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	color: black;
+}
+#fin{
+	width: 100%;
+	height: 600px;
+	float: left;
+}
+.tu_kuang{
+	width: 90%;
+	height: 330px;
+	float: left;
+	margin: 8% 0 0 5%;
+}
+.one{
+	width: 33%;
+	height: 100%;
+	border: 1px solid #C2E0C2;
+	float: left;
+	margin-left: 2px;
+	box-shadow: 5px 5px 2px #A3CFA3;
+	
+}
+.one img{
+	width:94%;
+	height:94%;
+	margin:3% 0 0 3%;
+}

@@ -1,0 +1,48 @@
+#cont{
+	width: 80%;
+	height: 700px;
+	float: left;
+	position:absolute;
+	margin: 6% 0 0 18%;
+	border: 1px solid #66A647;
+	border-bottom: none;
+	color: #333;
+	background: #B2D1B2;
+	text-align: center;
+}
+#cont tr{
+	height: 60px;
+	border: 1px solid #66A647;
+}
+#cont td{
+	height: 50px;
+	border-right: 1px solid #66A647;
+	border-bottom: 1px solid #66A647;
+}
+#cont .k{
+	width: 6%;
+}
+#cont .title{
+	width: 25%;
+}
+#cont .view{
+	width: 12%;
+}
+#cont .time{
+	width: 20%;
+}
+#cont .zhuangtai{
+	width: 15%;
+}
+#cont a{
+	text-decoration: none;
+	color: #333;
+}
+#cont a:hover{
+	cursor: pointer;
+	color: black;
+}
+.page{
+	margin: 0 3% 0 3%;
+	font-size: 18px;
+}

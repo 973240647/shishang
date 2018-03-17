@@ -1,0 +1,89 @@
+#back{
+	width: 100%;
+	height: 600px;
+}
+.lg{
+	width: 20%;
+	height: 200px;
+	float: left;
+	margin: 10% 0 0 17%;
+	background: url("../images/index/houtai_logo.png");
+	background-size: 100% 100%;
+}
+.back_con{
+	position: absolute;
+	width: 26%;
+	float: left;
+	font-size: 20px;
+	color: #999;
+	margin: 19% 0 0 13%;
+}
+#back_right{
+	position: absolute;
+	width: 42%;
+	height: 400px;
+	float: left;
+	margin: 10% 0 0 45%;
+}
+.admin{
+	width: 40%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 0 12%;
+}
+#user{
+	width: 70%;
+	height: 50px;
+	float: left;
+	margin: 5% 0 0 0;
+}
+.p{
+	width: 15%;
+	font-size: 20px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+.adminname{
+	width: 80%;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 10px 0 0 3%;
+}
+#pass{
+	width: 70%;
+	height: 50px;
+	float: left;
+	margin: 8% 0 0 0;
+}
+.adminpass{
+	width: 80%;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 10px 0 0 3%;
+}
+#login{
+	position: absolute;
+	width: 18%;
+	height: 40px;
+	font-size: 20px;
+	float: left;
+	background: #8FC78F;
+	border-radius: 7px;
+	margin: 35% 0 0 -58%;
+}
+#register{
+	position: absolute;
+	width: 18%;
+	height: 40px;
+	font-size: 20px;
+	float: left;
+	background: #8FC78F;
+	border-radius: 7px;
+	margin: 35% 0 0 -35%;
+}

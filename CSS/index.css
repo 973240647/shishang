@@ -1,0 +1,402 @@
+/*<a href="javascript:alert('abc');"></a>*/
+#main{
+	width:100%; 
+	height:100%; 
+	float:right;
+	background: white; 
+}
+.tplb{
+	width: 100%; 
+	height: 750px; 
+	/*background:pink;*/ 
+	position: absolute; 
+	float: left; 
+	margin-top: 60px;
+	/*border:1px solid #F00;*/
+}/*图片轮播*/
+.tplb img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#caidan{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	margin-top: -148px;
+	float: left;
+	background: white;
+}
+.caidanliaoli{
+	position: absolute;
+	width: 20%;
+	height: 75px;
+	left: 50%;
+	margin-left: -190px;
+	margin-top: 3%;
+	font-size: 40px;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+ 	color: black;
+}
+.pic_kuang{
+	width: 1300px;
+	height: 320px;
+	float: left;
+	position: absolute;
+	left: 50%;
+	margin-top: 150px;
+	margin-left: -600px;
+}
+.pic{
+	width: 357px;
+	height: 230px;
+	float: left;
+	margin: 40px 0px 40px 35px;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.pic .pic_type{
+	width: 29%;
+	height: 50px;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	margin-top: -180px;	
+}
+.pic .pic_type p{
+	color: white;
+	font-size: 30px;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.pic .pic_type hr{
+	width:50px; 
+	border-color:red; 
+	margin:auto; 
+	margin-top:5px;
+}
+
+#hot{
+	width: 100%;
+	height: 695px;
+	float: left;
+	position: relative;
+	background-image: url(../images/index/hot.jpg);
+	background-size: 100% 100%;
+}
+.hotname{
+	width: 40%;
+	height: 210px;
+	position: relative;
+	margin: auto;
+	margin-top: 2%;
+}
+.hotname .pro_n{
+	width: 40%;
+	height: 50px;
+	font-size: 40px;
+	color: #333;	
+	float: left;
+	margin-left: 30%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.hotname .eat{
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: 6%;
+	font-size: 14px;
+	color: #333;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+ 	letter-spacing: 1px;
+}
+.co{
+	width: 100%;
+	height: 60px;
+	float: left;	
+}
+.co ul{
+	width: 460px;
+	height: 30px;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #7A7A7A;
+	list-style: none;
+}
+.co ul li{
+	width: 114px;
+	height: 100%;
+	float: left;
+ 	background: white;
+	border-right: 1px solid #7A7A7A;
+}
+.co ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+	text-decoration: none;
+	color: #333;
+}
+
+#pro_kuang{
+	width: 80%;
+	height: 450px;
+	float: left;
+	margin-left: 10%;
+	margin-top: -50px;
+}
+.pro{
+	width: 20%;
+	height: 160px;
+	float: left;
+	margin: 4% 2% 0px 2%;
+}
+.zhezhao{
+	width: 100%;
+	height: 40px;
+	background: #797E82;
+	opacity: 0.8;
+	margin-top: 120px;
+}
+.zhezhao .zz_a{
+	display: block;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	color: white;
+	float: left;
+	font-size: 18px;
+	text-decoration: none;
+}
+.zz{
+	width: 100%;
+	height: 100%;
+	background: #797E82;
+	opacity: 0.7;
+	font-size: 40px;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+
+#pinpai{
+	width: 100%;
+	height: 680px;
+	float: left;
+	background: white;
+}
+.pinpai_con{
+	width: 80%;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 9%;
+}
+.pinpai_pic{
+	width: 35%;
+	height: 320px;
+	float: left;
+	position: relative;
+	background: url("../images/index/pinpai.png");
+	background-size: 100% 100%;
+}
+.gushi{
+	font-size: 38px;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 2px;
+	float: left;
+	margin: 0 0 0 5%;
+}
+.gushi_con{
+	font-size: 24px;
+	color: #333;
+	margin: 4% 0 0 5%;
+	float: left;
+}
+.gushi_two{
+	width: 47%;
+	height: 65px;
+	font-size: 24px;
+	color: #333;
+	margin: 4% 0 0 15%;
+	float: left;
+}
+.gushi_cre{
+	font-size: 24px;
+	color: #333;
+	float: left;
+	margin: 4% 0 0 25%;
+}
+
+#news{
+	width: 100%;
+	height: 650px;
+	border: 1px solid #7A7979;
+	float: left;
+	background: #CECECE;
+}
+.news_con{
+	width: 20%;
+	height: 100px;
+	margin: 2% 0 0 40%;
+}
+.dongtai{
+	width: 100%;
+	font-size: 38px;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 2px;
+	float: left;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.linian{
+	width: 100%;
+	font-size: 20px;
+	color: #333;
+	margin-top: 3%;
+	float: left;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.news_main{
+	width: 90%;
+	height: 445px;
+	margin: 0 auto;
+	margin-top: -2%;
+}
+.new_kuang{
+	width: 42%;
+	height: 160px;
+	float: left;
+	margin: 3% 4% 0 3%;
+}
+.kuang{
+	width: 40%;
+	height: 160px;
+	float: left;
+}
+.kuang img{
+	width: 100%;
+	height: 100%;
+}
+.new_right{
+	width: 57%;
+	height: 180px;
+	float: left;
+	margin-left: 2%;
+}
+.n_name{
+	display: block;
+	width: 100%;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+.new_con{
+	width: 100%;
+	margin-top: 5%;
+	color: #333;
+}
+.news_main .look{
+	width: 8%;
+	height: 35px;
+	margin: 35px 0 0 43%;
+	border-radius: 7px;
+	float: left;
+	border: 1px solid #7B7B7B;
+}
+.news_main .look a{
+	display: block;
+	line-height: 35px;
+	font-weight: normal;
+	font-size: 16px;
+	color: #008000;
+	text-decoration: none;
+	background: none;
+	text-align: center;	
+}
+
+#jiameng{
+	width: 100%;
+	height: 640px;
+	float: left;
+	background: white;
+}
+.jiameng_left{
+	width: 33%;
+	height: 250px;
+	float: left;
+	margin: 12% 0 0 12%;
+}
+.firm{
+	font-size: 30px;
+	color: #CCC;
+}
+.jiam{
+	font-size: 20px;
+	color: #A1A1A1;
+	float: left;
+	margin: 6% 0 0 0;
+}
+#jiameng_right{
+	width: 35%;
+	height: 440px;
+	float: left;
+	margin: 5% 0 0 13%;
+}
+#jiameng_right input{
+	width: 100%;
+	height: 40px;
+	border: 3px solid #CCC;
+	border-radius: 7px;
+	font-size: 20px;
+	color: #BCBCBC;
+	margin: 6% 0 0 0;
+	float: left;
+}
+#jiameng_right input:focus{
+	border-radius: 7px;
+	border: 3px solid #8FC78F;
+}
+#jiameng_right select{
+	width: 100%;
+	height: 45px;
+	float: left;
+	border-radius: 7px;
+	border: 3px solid #CCC;
+	font-size: 20px;
+	margin-top: 6%;
+}
+#jiameng_right select:focus{
+	border-radius: 7px;
+	border: 3px solid #8FC78F;
+}
+#jiameng_right 	button{
+	width: 100%;
+	height: 50px;
+	float: left;
+	border-radius: 7px;
+	background: #CC0000;
+	font-size: 20px;
+	margin-top: 6%;
+	color: white;
+	font-size: 22px;
+}

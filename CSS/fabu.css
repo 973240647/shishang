@@ -1,0 +1,61 @@
+.news_table,.set{
+	float:left;
+	width: 60%;
+	margin-top: 2%; 
+	margin-left: 13%; 
+	font-size: 16px; 	
+	border: 1px solid #66A647;
+	border-bottom: none;
+	color: #333;
+	background: #B2D1B2;
+}
+.news_table tr,.set tr{
+	height: 70px;
+}
+.news_table td,.set td{
+	height: 50px;
+	border-right: 1px solid #66A647;
+	border-bottom: 1px solid #66A647;
+}
+.word,.setword{
+	width: 20%;
+	text-align: center;
+	font-size: 22px;
+}
+input{
+	float: left;
+	margin-left: 5%;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px; 
+	height:30px; 
+	width:60%;
+	font-size: 18px;
+}
+select{
+	width: 130px;
+	height: 45px;
+	font-size: 20px;
+	margin-left: 5%;
+}
+textarea{
+	width: 90%;
+	height: 100px;
+	font-size: 20px;
+	margin-left: 5%;
+}
+button{
+	margin-left: 350px; 
+	height: 40px; 
+	font-size: 20px; 
+	letter-spacing: 2px; 
+	width: 15%;
+}
+img{
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+	height: 140px;
+}
+
+

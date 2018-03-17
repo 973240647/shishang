@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#back_bg{
+	width: 100%;
+	height: 1000px;
+	float: left;
+	background: url("../images/index/backstage_bg.jpg");
+	background-size: 100% 100%;
+}
+.apply_list{
+	width: 15%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	font-size: 34px;
+	color: #333;
+	letter-spacing: 2px;
+	margin: 5% 0 0 15%;
+}
+.admin_table{
+	position: absolute;
+	width: 70%;
+	float: left;
+	background: #B2D1B2;
+	border: 1px solid #66A647;
+	border-bottom: none;
+	margin: 14% 0 0 22%;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: 1px;
+}
+.admin_table tr{
+	height: 50px;
+	border: 1px solid #66A647;
+}
+.admin_table td{
+	height: 50px;
+	border-right: 1px solid #66A647;
+	border-bottom: 1px solid #66A647;
+}
+.admin_table .xuankuang{
+	width: 6%;	
+}
+.admin_table .name{
+	width: 11%;
+}
+.admin_table .phone{
+	width: 15%;
+}
+.admin_table .address{
+	width: 10%;
+}
+.admin_table .email{
+	width: 20%;
+}
+.admin_table .time{
+	width: 21%;
+}
+input[type=checkbox] {
+	-ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    float: left;
+    margin-left: 40%;
+}
+.checkallbox input[type=checkbox] {
+	-ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    float: left;
+}
+.page a{
+	float: left;
+	width: 15%;
+	margin: 0 0 0 8%;
+	text-decoration: none;
+	color: #333;
+}
+button{
+	width: 15%;
+	height: 40px;
+	font-size: 18px;
+	float: left;
+	background: #64AC64;
+	border-radius: 7px;
+	margin-left: 15%;
+}

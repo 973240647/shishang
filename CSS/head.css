@@ -1,0 +1,236 @@
+*{
+    padding:0;
+    margin:0;
+}
+#top{
+    width: 100%;
+    height: 60px;
+    background:url("../images/index/nav.png");
+    background-size: cover;
+    position:fixed;/*固定作用*/
+    /*ie6下样式，加下划线表示只针对ie6 的hack */
+    z-index:9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+    text-align:left;
+}
+
+#top #logo{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -720px;
+    background: url("../images/index/logo.png") 140px 40px;
+}
+
+#top #nav{
+    width: 74%;
+    height: 58px;
+    float: right;
+}
+#top #nav .daohang{
+    width: 83%;
+    float: left;
+    margin-right: -100px;
+    height: 58px;
+}
+#top #nav .daohang .big_u{
+    width: 100%;
+    height: 58px;
+    list-style: none;
+    float: left;
+}
+#top #nav .daohang .big_u li{
+    width: 105px;
+    height: 30px; 
+    padding: 0px 0px 0px 10px;
+    list-style: none;
+    margin-top: 15px;
+    float: left;
+}
+#top #nav .daohang .big_u li .big_a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#top #nav .daohang ul li .big_a:hover{
+    cursor: pointer;
+}
+
+#back_m{
+    width: 250px;
+    height: 100%;
+    float: left;
+    background: black;
+}
+#back_m #back_nav{
+    width: 100%;
+    height: 100%;
+    float: right; 
+}
+#back_m #back_nav .back_dh{
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+#back_nav .back_dh .big_B{
+    width: 100%;
+    list-style: none;
+    float: left;
+}
+#back_m #back_nav .back_dh .big_B li{
+    width: 100%;
+    height: 60px; 
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid #6C6C6C;
+}
+#back_m #back_nav .back_dh .big_B li .big_a{
+    text-decoration: none;
+    color: #0CF;
+    width: 100%;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#back_m #back_nav .back_dh ul li .big_B:hover{
+    cursor: pointer;
+}
+
+/*搜索*/
+#top #search{
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/search.png") 30px 30px;
+    float: left;
+    margin-top: 15px;
+}
+#search .search_big_div{
+    display: none;
+    width: 13%;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: -30px;
+    position: absolute;
+    background: black;
+}
+#search .search_div{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    background: #000;
+    margin-top: 14px;
+}
+#search .search_div input{
+    width: 70%;
+    height: 99%;
+    float: left;
+}
+#search .search_div a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    width: 56px;
+    height: 28px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    letter-spacing: 2px;
+}
+#top #search:hover .search_big_div{
+    display: block;
+}
+
+
+/*菜单料理*/
+.menu_div{
+    display: none;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: -4px;
+    background: #000;
+}
+.menu_a{
+    display: block;
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    float: left;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+.menu_div .menu_a:hover{
+    color: red;
+    cursor: pointer;
+}
+#top #nav .daohang .big_u li:hover .menu_div{
+    display: block;
+}
+
+/*热销产品*/
+.product_div{
+    display: none;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: -4px;
+    background: #000;
+}
+.product_a{
+    display: block;
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    float: left;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+.product_div .product_a:hover{
+    color: red;
+    cursor: pointer;
+}
+#top #nav .daohang .big_u li:hover .product_div{
+    display: block;
+}
+
+#admin{
+    width: 250px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    background: #000;
+    margin-top: 28%;
+    color: white;
+}
+.quit{
+    text-decoration:none;
+    color:white;
+    margin-left:5%;
+}
+.quit:hover{
+    cursor: pointer;
+}

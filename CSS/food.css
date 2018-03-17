@@ -1,0 +1,130 @@
+#food_main{
+	width: 100%;
+	height: 100%;
+}
+#food_bg{
+	width: 100%;
+	height: 520px;
+	float: left;
+	margin-top: 3%;
+	background: url("../images/product/food_bg.jpg");
+	background-size: 100% 100%;
+}
+.food_menu{
+	width: 100%;
+	height: 60px;
+	float: left;
+	margin-top: 2%;	
+}
+.food_menu ul{
+	width: 600px;
+	height: 30px;
+	position: relative;
+	margin: 10px 0 0 8%;
+	border: 1px solid #7A7A7A;
+	list-style: none;
+}
+.food_menu ul li{
+	width: 119px;
+	height: 100%;
+	float: left;
+ 	background: white;
+	border-right: 1px solid #7A7A7A;
+}
+.food_menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+	text-decoration: none;
+	color: #333;
+}
+#food_bk{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #E0E0E0;
+}
+.food_kuang{
+	width: 75%;
+	height: 100%;
+	margin: 5% 0 0 15%;
+}
+.food_shang{
+	width: 100%;
+	height: 380px;
+	float: left;
+}
+.food_img{
+	width: 48%;
+	height: 380px;
+	float: left;
+	background-size: 100% 100%;
+}
+.food_name{
+	width: 38%;
+	height: 50px;
+	float: left;
+	margin: 1% 0 0 10%;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.food_des{
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	margin: 2% 0 0 10%;
+	color: #999;
+	font-size: 20px;
+}
+.food_xia{
+	width: 80%;
+	height: 100%;
+	background: white;
+	float: left;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+.food_cook{
+	width: 50%;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #578000;
+	line-height: 30px;
+	margin: 6% 0 0 15%;
+}
+.food_pic{
+	width: 63%;
+	height: 380px;
+	float: left;
+	margin: 5% 0 0 15%;
+	background-size: 100% 100%;
+}
+.food_cailiao{
+	width: 45%;
+	float: left;
+	margin: 5% 0 0 25%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.food_buzhou{
+	width: 70%;
+	margin: 5% 0 20% 15%;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+}
+pre{
+	word-break: break-all;
+	display: block;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}

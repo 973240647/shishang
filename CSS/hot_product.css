@@ -1,0 +1,170 @@
+#hot_main{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.hot_bg{
+	width: 100%;
+	height: 620px;
+	float: left;
+	margin-top: 3%;
+	background: url("../images/hot/1.jpg");
+	background-size: 100% 100%;
+}
+#hot_con{
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.h_name{
+	width: 40%;
+	height: 160px;
+	position: relative;
+	margin: auto;
+	margin-top: 3%;
+}
+.h_name .h_pro{
+	width: 40%;
+	height: 50px;
+	font-size: 44px;
+	color: #333;	
+	float: left;
+	margin-left: 30%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.h_name .need{
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: 1%;
+	font-size: 18px;
+	color: #333;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+ 	letter-spacing: 1px;
+}
+.hot_menu{
+	width: 100%;
+	height: 60px;
+	float: left;
+	margin-top: 2%;	
+}
+.hot_menu ul{
+	width: 480px;
+	height: 30px;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #7A7A7A;
+	list-style: none;
+}
+.hot_menu ul li{
+	width: 119px;
+	height: 100%;
+	float: left;
+ 	background: white;
+	border-right: 1px solid #7A7A7A;
+}
+.hot_menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+	text-decoration: none;
+	color: #333;
+}
+
+#hot_kuang{
+	width: 96%;
+	height: 100%;
+	float: left;
+	margin: -2% 0 0 2%;
+}
+.h_pic{
+	width: 24%;
+	height: 210px;
+	float: left;
+	margin: 3% 6px 0px 6px;
+}
+.h_pic img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.h_zhe{
+	width: 100%;
+	height: 50px;
+	background: #797E82;
+	opacity: 0.8;
+	margin-top: 160px;
+}
+.h_zhe a{
+	width: 100%;
+	height: 100%;
+	color: white;
+	float: left;
+	margin-top: -10%;
+	font-size: 20px;
+	text-decoration: none;
+}
+.h_zhe a:hover{
+	cursor: pointer;
+}
+
+
+#hj{
+	width: 20%;
+	height: 50px;
+	float: left;
+	position: relative;
+	margin: 4% 0 5% 40%;
+	border-radius: 7px;
+	border: 1px solid #7B7B7B;
+}
+#hj a{
+	display: block;
+	line-height: 50px;
+	font-size: 24px;
+	color: #008000;
+	text-decoration: none;
+	text-align: center;	
+}
+
+
+
+#fenye{
+	width: 31%;
+	height: 40px;
+	float: left;
+	margin: 4% 0 0 35%;	
+}
+#fenye ul{
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	border: 1px solid #7A7A7A;
+	list-style: none;
+}
+#fenye ul li{
+	width: 113px;
+	height: 100%;
+	float: left;
+ 	background: white;
+	border-right: 1px solid #7A7A7A;
+}
+#fenye ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+	text-decoration: none;
+	color: #333;
+}

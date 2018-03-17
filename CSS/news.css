@@ -1,0 +1,97 @@
+#news_dongtai{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: url("../images/news/news_bg.jpg");
+	background-size: 100% 100%;
+}
+.news_kuang{
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin: 11% 0 0 40%;
+}
+.dongtai_wenzi{
+	width: 100%;
+	font-size: 38px;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 2px;
+	float: left;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+.linian_neirong{
+	width: 100%;
+	font-size: 20px;
+	color: #333;
+	margin-top: 3%;
+	float: left;
+	display: flex; 
+  	justify-content: center; 
+ 	align-items: center;
+}
+#news_bpk{
+	width: 90%;
+	height: 100%;
+	margin: 0 0 0 5%;
+	float: left;
+}
+.news_pick{
+	width: 42%;
+	height: 160px;
+	float: left;
+	margin: 3% 4% 0 3%;
+}
+.pic{
+	width: 40%;
+	height: 160px;
+	float: left;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.news_right{
+	width: 57%;
+	height: 180px;
+	float: left;
+	margin-left: 2%;
+}
+.news_right .news_name{
+	width: 100%;
+	height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.news_right a:hover{
+	cursor: pointer;
+}
+#news_description{
+	display: block;
+	width: 100%;
+	height: 90px;
+	margin-top: 5%;
+	color: #333;
+}
+#news_bpk #chakan{
+	width: 10%;
+	height: 40px;
+	margin: 60px 0 5% 43%;
+	border-radius: 7px;
+	float: left;
+	border: 1px solid #7B7B7B;
+}
+#news_bpk #chakan a{
+	display: block;
+	line-height: 40px;
+	font-weight: normal;
+	font-size: 20px;
+	color: #008000;
+	text-decoration: none;
+	background: none;
+	text-align: center;	
+}
